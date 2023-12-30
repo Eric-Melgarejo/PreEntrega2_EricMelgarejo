@@ -736,7 +736,7 @@ align-items: center;
 }
 
 @media (max-width: 525px){
-    header{
+    /*header{
         background-color: rgb(0, 0, 0);
         height: 210px;
      }
@@ -764,7 +764,7 @@ align-items: center;
     
     }
     .seccion-con-imagen{
-        background-image: url(../assets/img/fondoprincipal.png);/* Cambia 'ruta/de/tu/imagen.jpg' por la ruta real de tu imagen */
+        background-image: url(../assets/img/fondoprincipal.png); Cambia 'ruta/de/tu/imagen.jpg' por la ruta real de tu imagen 
         width: 100%; 
         height: 400px;
         background-size: cover;
@@ -787,14 +787,14 @@ align-items: center;
         padding-top: 0px;
     }
     .supermario{
-        width: 400px; /* Ajusta el ancho de tu logo según tus necesidades */
-        height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
+        width: 400px; 
+        height: auto; 
         position: relative;
-        z-index: 2; /* Asegura que el logo esté superpuesto sobre el fondo */
+        z-index: 2; 
         left: 20px;
         top: 130px;
         
-    }
+    }*/
     .seccion-con-imagen1{
         height: 700px; /* Establece la altura de la sección al 100% del viewport height */
        background-image: url(../assets/img/fondo1.png);/* Cambia 'ruta/de/tu/imagen.jpg' por la ruta real de tu imagen */
@@ -1243,7 +1243,7 @@ align-items: center;
         display: flex;
         justify-content: flex-start;
         gap: 10px;
-        margin-left: 20px;
+        margin-left: 35px;
     
     }
     .enlinea a{
@@ -1256,7 +1256,7 @@ align-items: center;
       }
       header img{
         max-width: 100px;
-        margin-left: 150px;
+        margin-left: 155px;
         margin-top: 20px;
         background-color: black;
         background-size: cover;
@@ -1290,8 +1290,8 @@ align-items: center;
         height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
         position: relative;
         z-index: 2; /* Asegura que el logo esté superpuesto sobre el fondo */
-        left: 20px;
-        top: 130px;
+        left: 30px;
+        top: 135px;
         
     }
     .seccion-con-imagen1{
@@ -1451,7 +1451,7 @@ align-items: center;
     }
     footer img{
         max-width: 120px;
-        margin-left: 130px;
+        margin-left: 150px;
         margin-top: 10px;
         background-color: rgb(29, 29, 29);
         background-size: cover;
@@ -1464,6 +1464,7 @@ align-items: center;
         display: flex;
         justify-content: center;
         gap: 20px;
+        padding-left: 5px;
         padding-top: 70px;
       font-family: Jomhuria;
       font-weight: Regular;
@@ -2066,6 +2067,18 @@ section .codd{
 
 }
 @media (max-width: 1024px){
+    .nosotrosTienda{
+        background-image: url(../assets/img/fondonovedades.png);
+        width: 100%; 
+        height: 780px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
     .store{
         height: 700px;
         background-image: url(../assets/img/fondo\ store.png);
@@ -2151,6 +2164,18 @@ section .codd{
 
 }
 @media (max-width: 768px){
+    .nosotrosTienda{
+        background-image: url(../assets/img/fondonovedades.png);
+        width: 100%; 
+        height: 600px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
     .store{
         height: 700px;
         background-image: url(../assets/img/fondo\ store.png);
@@ -2236,6 +2261,21 @@ section .codd{
 
 }
 @media (max-width: 525px){
+    .nosotrosTienda{
+        background-image: url(../assets/img/fondonovedades.png);
+        width: 100%; 
+        height: 430px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .nosotrosTienda, .supermario{
+padding-left: 30px;
+    }
     .store{
         height: 750px;
         background-image: url(../assets/img/fondo\ store.png);
@@ -2334,6 +2374,9 @@ section .codd{
         text-align: center;
         flex-direction: column;
     }
+    .nosotrosTienda, .supermario{
+        padding-right: 30px;
+    }
     .store{
         height: 790px;
         background-image: url(../assets/img/fondo\ store.png);
@@ -2416,6 +2459,23 @@ section .codd{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
+}
+@media (max-width: 375px){
+    .nosotrosTienda{
+        background-image: url(../assets/img/fondonovedades.png);
+        width: 100%; 
+        height: 470px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .nosotrosTienda, .supermario{
+padding-left: 10px;
+    }
 }
 
 
@@ -2633,7 +2693,7 @@ section .codd{
         height: auto; 
         position: absolute;
         right: 20%;
-        top: 158%;
+        top: 105%;
         padding-top: 140px;
         z-index: 2;
     }
@@ -2678,7 +2738,7 @@ section .codd{
         height: auto; 
         position: absolute;
         right: 14%;
-        top: 165%;
+        top: 105%;
         padding-top: 140px;
         z-index: 2;
     }
@@ -2769,7 +2829,7 @@ section .codd{
         height: auto; 
         position: absolute;
         right: 8%;
-        top: 155%;
+        top: 105%;
         padding-top: 140px;
         z-index: 2;
     }
