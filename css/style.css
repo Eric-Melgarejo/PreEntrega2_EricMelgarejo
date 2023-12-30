@@ -1234,7 +1234,7 @@ align-items: center;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 }
-@media (max-width: 375px){
+@media (max-width: 383px){
     header{
         background-color: rgb(0, 0, 0);
         height: 175px;
@@ -1624,7 +1624,7 @@ align-items: center;
 
 }
 
-@media (max-width: 375px){
+@media (max-width: 383px){
     .novedades{
         height: 415px;
     }
@@ -1889,7 +1889,7 @@ section .codd{
 }
 
 
-@media (max-width: 375px){
+@media (max-width: 383px){
     .nosotros{
         background-image: url(../assets/img/fondonovedades.png);
         width: 100%; 
@@ -2321,7 +2321,7 @@ section .codd{
 }
 
 
-@media (max-width: 375px){
+@media (max-width: 383px){
     .nosotrosTienda{
         background-image: url(../assets/img/fondonovedades.png);
         width: 100%; 
@@ -2693,7 +2693,7 @@ section .codd{
     }
 
 }
-@media (max-width: 375px){
+@media (max-width: 383px){
     .callus{
         height: 500px;
         background-image: url(../assets/img/RE4.png);
@@ -3404,7 +3404,7 @@ transition: background-color 0.3s, color 0.3s;
     }
 
 }
-@media (max-width: 375px){
+@media (max-width: 383px){
     .titulopro{
         text-align: center;
         font-size: 30px;
